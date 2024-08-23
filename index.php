@@ -9,17 +9,17 @@
 <meta name="description" content="HTML Landing Page Teamplate">
 <meta name="keywords" content="digital marketing, leads, pay per click, advertising, social media, SEO, email marketing">
 <!-- FAVICON FILES -->
-<link href="assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
-<link href="assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
-<link href="assets/images/icons/favicon.png" rel="shortcut icon">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/favicon.png" rel="shortcut icon">
 <!-- CSS FILES -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/fonts/iconfont.css">
-<link rel="stylesheet" href="assets/css/plugins.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/color.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/iconfont.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/plugins.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/color.css">
 </head>
 <body>
 <div id="dtr-wrapper" class="clearfix">
@@ -38,7 +38,7 @@
         <div class="container">
 
             <!-- small devices logo -->
-            <div class="dtr-responsive-header-left"> <a class="dtr-logo" href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a> </div>
+            <div class="dtr-responsive-header-left"> <a class="dtr-logo" href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a> </div>
             <!-- small devices logo ends -->
 
             <!-- menu button -->
@@ -59,10 +59,10 @@
                 <div class="dtr-header-left">
 
                     <!-- logo -->
-                    <a class="logo-default dtr-scroll-link" href="#home"><img src="assets/images/logo-dark.png" alt="logo"></a>
+                    <a class="logo-default dtr-scroll-link" href="#home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
 
                     <!-- logo on scroll -->
-                    <a class="logo-alt dtr-scroll-link" href="#home"><img src="assets/images/logo-dark.png" alt="logo"></a>
+                    <a class="logo-alt dtr-scroll-link" href="#home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
                     <!-- logo on scroll ends -->
 
                 </div>
@@ -129,7 +129,7 @@
                             <!-- button ends -->
 
                         </div>
-                        <div class="col-12 col-md-6 small-device-space"> <img src="assets/images/section-img1.png" alt="image"> </div>
+                        <div class="col-12 col-md-6 small-device-space"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-img1.png" alt="image"> </div>
                     </div>
                     <!--== row ends ==-->
 
@@ -138,17 +138,17 @@
                         <div class="col-12 col-md-10 offset-md-1">
                             <div class="dtr-slick-slider dtr-slider-5col">
                                 <!-- img 1 -->
-                                <div> <img src="assets/images/client-1.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-1.png" alt="image"> </div>
                                 <!-- img 2 -->
-                                <div> <img src="assets/images/client-2.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-2.png" alt="image"> </div>
                                 <!-- img 3 -->
-                                <div> <img src="assets/images/client-3.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-3.png" alt="image"> </div>
                                 <!-- img 4 -->
-                                <div> <img src="assets/images/client-4.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-4.png" alt="image"> </div>
                                 <!-- img 5 -->
-                                <div> <img src="assets/images/client-5.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-5.png" alt="image"> </div>
                                 <!-- img 6 -->
-                                <div> <img src="assets/images/client-1.png" alt="image"> </div>
+                                <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client-1.png" alt="image"> </div>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                 <div class="row">
 
                     <!-- column 1 starts -->
-                    <div class="col-12 col-md-6"> <img src="assets/images/section-img2.png" alt="image"> </div>
+                    <div class="col-12 col-md-6"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-img2.png" alt="image"> </div>
                     <!-- column 1 ends -->
 
                     <!-- column 2 starts -->
@@ -1331,10 +1331,10 @@
 <!-- #dtr-wrapper ends -->
 
 <!-- JS FILES -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
 </body>
 </html>
