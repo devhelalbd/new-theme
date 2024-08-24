@@ -121,12 +121,7 @@
 </div>
 <!-- #dtr-wrapper ends -->
 
-<!-- JS FILES -->
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
+
 
 
 <?php wp_footer(); ?>
