@@ -1,97 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="format-detection" content="telephone=no">
-<title>Xassvik - XaaS Services One Page Landing Page Template</title>
-<meta name="author" content="tansh">
-<meta name="description" content="HTML Landing Page Teamplate">
-<meta name="keywords" content="digital marketing, leads, pay per click, advertising, social media, SEO, email marketing">
-<!-- FAVICON FILES -->
-<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
-<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
-<link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/favicon.png" rel="shortcut icon">
-<!-- CSS FILES -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/iconfont.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/plugins.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/color.css">
-</head>
-<body>
-<div id="dtr-wrapper" class="clearfix">
 
-    <!-- preloader starts -->
-    <div class="dtr-preloader">
-        <div class="dtr-preloader-inner">
-            <div class="dtr-loader">Loading...</div>
-        </div>
-    </div>
-    <!-- preloader ends -->
+<?php get_header(); ?>
 
-    <!-- Small Devices Header
-============================================= -->
-    <div class="dtr-responsive-header header-with-slick-menu fixed-top">
-        <div class="container">
 
-            <!-- small devices logo -->
-            <div class="dtr-responsive-header-left"> <a class="dtr-logo" href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a> </div>
-            <!-- small devices logo ends -->
-
-            <!-- menu button -->
-            <button id="dtr-menu-button" class="dtr-hamburger" type="button"><span class="dtr-hamburger-lines-wrapper"><span class="dtr-hamburger-lines"></span></span></button>
-        </div>
-        <div class="dtr-responsive-header-menu"></div>
-    </div>
-    <!-- Small Devices Header ends
-============================================= -->
-
-    <!-- header starts
-============================================= -->
-    <header id="dtr-header-global" class="fixed-top">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
-
-                <!-- header left starts -->
-                <div class="dtr-header-left">
-
-                    <!-- logo -->
-                    <a class="logo-default dtr-scroll-link" href="#home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
-
-                    <!-- logo on scroll -->
-                    <a class="logo-alt dtr-scroll-link" href="#home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-dark.png" alt="logo"></a>
-                    <!-- logo on scroll ends -->
-
-                </div>
-                <!-- header left ends -->
-
-                <!-- menu starts-->
-                <div class="main-navigation">
-                    <ul class="sf-menu dtr-nav dark-nav-on-load dark-nav-on-scroll">
-                        <li> <a class="nav-link" href="#home">Home</a> </li>
-                        <li> <a class="nav-link" href="#services">Features</a> </li>
-                        <li> <a class="nav-link" href="#team">The Team</a> </li>
-                        <li> <a class="nav-link" href="#reviews">Reviews</a> </li>
-                        <li> <a class="nav-link" href="#pricing">Pricing</a> </li>
-                        <li> <a class="nav-link" href="#blog">Blog</a> </li>
-                        <li> <a class="nav-link" href="#contact">Contact</a> </li>
-                    </ul>
-                </div>
-                <!-- menu ends -->
-
-            </div>
-        </div>
-    </header>
-    <!-- header ends
-================================================== -->
-
-    <!-- == main content area starts == -->
-    <div id="dtr-main-content">
-
-        <!-- hero section starts
+<!-- hero section starts
 ================================================== -->
         <section id="home" class="dtr-section">
             <div class="dtr-section bg-white dtr-hero-section-top-padding">
@@ -333,7 +244,7 @@
                 <div class="row">
 
                     <!-- column 1 starts -->
-                    <div class="col-12 col-md-6"> <img src="assets/images/section-img4.png" alt="image"> </div>
+                    <div class="col-12 col-md-6"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/section-img4.png" alt="image"> </div>
                     <!-- column 1 ends -->
 
                     <!-- column 2 starts -->
@@ -469,7 +380,7 @@
                         <!-- member starts -->
                         <div class="dtr-team dtr-team-social-onhover text-center dtr-team-offset-border dtr-box-rounded">
                             <div class="dtr-team-content-wrapper dtr-shadow">
-                                <div class="dtr-team-img"> <img src="assets/images/team-member-1.jpg" alt="image"> </div>
+                                <div class="dtr-team-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team-member-1.jpg" alt="image"> </div>
                                 <div class="dtr-team-content bg-white">
                                     <h5 class="dtr-team-title">Will McMilan</h5>
                                     <p class="dtr-team-subtitle">CEO</p>
@@ -496,7 +407,7 @@
                         <!-- member starts -->
                         <div class="dtr-team dtr-team-social-onhover text-center dtr-team-offset-border dtr-box-rounded">
                             <div class="dtr-team-content-wrapper dtr-shadow">
-                                <div class="dtr-team-img"> <img src="assets/images/team-member-2.jpg" alt="image"> </div>
+                                <div class="dtr-team-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team-member-2.jpg" alt="image"> </div>
                                 <div class="dtr-team-content bg-white">
                                     <h5 class="dtr-team-title">Alexa Smith</h5>
                                     <p class="dtr-team-subtitle">Business Head</p>
@@ -523,7 +434,7 @@
                         <!-- member starts -->
                         <div class="dtr-team dtr-team-social-onhover text-center dtr-team-offset-border dtr-box-rounded">
                             <div class="dtr-team-content-wrapper dtr-shadow">
-                                <div class="dtr-team-img"> <img src="assets/images/team-member-3.jpg" alt="image"> </div>
+                                <div class="dtr-team-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team-member-3.jpg" alt="image"> </div>
                                 <div class="dtr-team-content bg-white">
                                     <h5 class="dtr-team-title">Anthony Sommers</h5>
                                     <p class="dtr-team-subtitle">Product Lead</p>
@@ -550,7 +461,7 @@
                         <!-- member starts -->
                         <div class="dtr-team dtr-team-social-onhover text-center dtr-team-offset-border dtr-box-rounded">
                             <div class="dtr-team-content-wrapper dtr-shadow">
-                                <div class="dtr-team-img"> <img src="assets/images/team-member-4.jpg" alt="image"> </div>
+                                <div class="dtr-team-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team-member-4.jpg" alt="image"> </div>
                                 <div class="dtr-team-content bg-white">
                                     <h5 class="dtr-team-title">Jade Anderson</h5>
                                     <p class="dtr-team-subtitle">CTO</p>
@@ -603,11 +514,11 @@
                         <div class="col-12 col-md-5">
                             <div class="tab-content">
                                 <!-- tab 1 -->
-                                <div class="tab-pane active" id="features-tab-1" role="tabpanel" aria-labelledby="features-tab-1-tab"> <img src="assets/images/tab-img1.png" alt="image"> </div>
+                                <div class="tab-pane active" id="features-tab-1" role="tabpanel" aria-labelledby="features-tab-1-tab"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tab-img1.png" alt="image"> </div>
                                 <!-- tab 2 -->
-                                <div class="tab-pane" id="features-tab-2" role="tabpanel" aria-labelledby="features-tab-2-tab"><img src="assets/images/tab-img2.png" alt="image"></div>
+                                <div class="tab-pane" id="features-tab-2" role="tabpanel" aria-labelledby="features-tab-2-tab"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tab-img2.png" alt="image"></div>
                                 <!-- tab 3 -->
-                                <div class="tab-pane" id="features-tab-3" role="tabpanel" aria-labelledby="features-tab-3-tab"><img src="assets/images/tab-img3.png" alt="image"></div>
+                                <div class="tab-pane" id="features-tab-3" role="tabpanel" aria-labelledby="features-tab-3-tab"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tab-img3.png" alt="image"></div>
                             </div>
                         </div>
                         <!-- left column ends -->
@@ -652,7 +563,7 @@
 
         <!-- testimonial section starts
 ================================================== -->
-        <section id="reviews" class="dtr-section dtr-section-with-bg dtr-py-100" style="background-image: url(assets/images/section-bg-img2.jpg);">
+        <section id="reviews" class="dtr-section dtr-section-with-bg dtr-py-100" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/section-bg-img2.jpg);">
 
             <!-- overlay -->
             <div class="dtr-overlay dtr-overlay-dark"></div>
@@ -677,7 +588,7 @@
                     <!--== slide 1 starts ==-->
                     <div class="dtr-testimonial bg-white">
                         <div class="dtr-client-info">
-                            <p class="dtr-testimonial-user"><img src="assets/images/user-1-80x80.jpg" alt="Eleanor Jensen"></p>
+                            <p class="dtr-testimonial-user"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/user-1-80x80.jpg" alt="Eleanor Jensen"></p>
                             <div>
                                 <h5 class="dtr-client-name">David James</h5>
                                 <span class="dtr-client-job">Spin Automation</span> </div>
@@ -689,7 +600,7 @@
                     <!--== slide 2 starts ==-->
                     <div class="dtr-testimonial bg-white">
                         <div class="dtr-client-info">
-                            <p class="dtr-testimonial-user"><img src="assets/images/user-2-80x80.jpg" alt="Eleanor Jensen"></p>
+                            <p class="dtr-testimonial-user"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/user-2-80x80.jpg" alt="Eleanor Jensen"></p>
                             <div>
                                 <h5 class="dtr-client-name">Eleanor Jensen</h5>
                                 <span class="dtr-client-job">Entrepreneur</span> </div>
@@ -701,7 +612,7 @@
                     <!--== slide 3 starts ==-->
                     <div class="dtr-testimonial bg-white">
                         <div class="dtr-client-info">
-                            <p class="dtr-testimonial-user"><img src="assets/images/user-3-80x80.jpg" alt="Eleanor Jensen"></p>
+                            <p class="dtr-testimonial-user"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/user-3-80x80.jpg" alt="Eleanor Jensen"></p>
                             <div>
                                 <h5 class="dtr-client-name">Alizee Denten</h5>
                                 <span class="dtr-client-job">Kantole Global</span> </div>
@@ -713,7 +624,7 @@
                     <!--== slide 4 starts ==-->
                     <div class="dtr-testimonial bg-white">
                         <div class="dtr-client-info">
-                            <p class="dtr-testimonial-user"><img src="assets/images/user-1-80x80.jpg" alt="Eleanor Jensen"></p>
+                            <p class="dtr-testimonial-user"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/user-1-80x80.jpg" alt="Eleanor Jensen"></p>
                             <div>
                                 <h5 class="dtr-client-name">Andrew Graham</h5>
                                 <span class="dtr-client-job">Entrepreneur</span> </div>
@@ -804,7 +715,7 @@
                     <div class="dtr-overlay"></div>
 
                     <!-- image -->
-                    <img src="assets/images/video-bg.jpg" alt="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/video-bg.jpg" alt="image">
 
                     <!-- pulsating button starts -->
                     <div class="dtr-video-pulse-wrapper dtr-overlay-content">
@@ -876,7 +787,7 @@
                     <!-- pricing column 2 starts -->
                     <div class="col-12 col-md-4 dtr-mx-0">
                         <div class="dtr-pricing dtr-pricing-has-stamp dtr-pricing-focused dtr-box-rounded dtr-shadow bg-white">
-                            <div class="dtr-pricing-stamp"> <img src="assets/images/pricing-best-plan-label.png" alt="image"> </div>
+                            <div class="dtr-pricing-stamp"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pricing-best-plan-label.png" alt="image"> </div>
 
                             <!-- heading -->
                             <h4 class="dtr-pricing-heading">Pro</h4>
@@ -1033,7 +944,7 @@
 
         <!-- screenshot section starts
 ================================================== -->
-        <section class="dtr-section dtr-section-with-bg dtr-py-100" style="background-image: url(assets/images/section-bg-img2.jpg);">
+        <section class="dtr-section dtr-section-with-bg dtr-py-100" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/section-bg-img2.jpg);">
 
             <!--overlay -->
             <div class="dtr-overlay dtr-overlay-dark"></div>
@@ -1055,15 +966,15 @@
                 <!-- slider starts -->
                 <div class="dtr-slick-slider dtr-slider-3col dtr-slick-has-dots dtr-mt-50">
                     <!-- img 1 -->
-                    <div> <img src="assets/images/carousel-img1.png" alt="image"> </div>
+                    <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel-img1.png" alt="image"> </div>
                     <!-- img 2 -->
-                    <div> <img src="assets/images/carousel-img2.png" alt="image"> </div>
+                    <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel-img2.png" alt="image"> </div>
                     <!-- img 3 -->
-                    <div> <img src="assets/images/carousel-img3.png" alt="image"> </div>
+                    <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel-img3.png" alt="image"> </div>
                     <!-- img 4 -->
-                    <div> <img src="assets/images/carousel-img1.png" alt="image"> </div>
+                    <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel-img1.png" alt="image"> </div>
                     <!-- img 5 -->
-                    <div> <img src="assets/images/carousel-img2.png" alt="image"> </div>
+                    <div> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel-img2.png" alt="image"> </div>
                 </div>
                 <!-- slider ends -->
 
@@ -1096,7 +1007,7 @@
                     <!-- column 1 starts -->
                     <div class="col-12 col-md-4">
                         <div class="dtr-post-item">
-                            <div class="dtr-post-img"> <img src="assets/images/post-img1.jpg" alt="image"> </div>
+                            <div class="dtr-post-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-img1.jpg" alt="image"> </div>
                             <div class="dtr-post-content"> <span class="dtr-meta-category"><a href="#">DevOps</a></span>
                                 <h5 class="dtr-post-title"><a href="#" rel="bookmark">Adapting & onboarding users in a virtual workplace</a></h5>
                                 <div class="dtr-meta color-dark-gray"> <span class="dtr-meta-author-avatar"><img src="assets/images/user-1-80x80.jpg" alt="image"></span> Aurora Walker<span class="dtr-meta-date">15. 08. 2021</span></div>
@@ -1109,7 +1020,7 @@
                     <!-- column 2 starts -->
                     <div class="col-12 col-md-4">
                         <div class="dtr-post-item">
-                            <div class="dtr-post-img"> <img src="assets/images/post-img2.jpg" alt="image"> </div>
+                            <div class="dtr-post-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-img2.jpg" alt="image"> </div>
                             <div class="dtr-post-content"> <span class="dtr-meta-category"><a href="#">Application</a></span>
                                 <h5 class="dtr-post-title"><a href="#" rel="bookmark">The Benefits of XaaS Cloud Solutions</a></h5>
                                 <div class="dtr-meta color-dark-gray"> <span class="dtr-meta-author-avatar"><img src="assets/images/user-2-80x80.jpg" alt="image"></span> Noah Wilson<span class="dtr-meta-date">20. 07. 2021</span></div>
@@ -1122,7 +1033,7 @@
                     <!-- column 3 starts -->
                     <div class="col-12 col-md-4">
                         <div class="dtr-post-item">
-                            <div class="dtr-post-img"> <img src="assets/images/post-img3.jpg" alt="image"> </div>
+                            <div class="dtr-post-img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-img3.jpg" alt="image"> </div>
                             <div class="dtr-post-content"> <span class="dtr-meta-category"><a href="#">DevOps</a></span>
                                 <h5 class="dtr-post-title"><a href="#" rel="bookmark">Why SaaS application usage exploding!</a></h5>
                                 <div class="dtr-meta color-dark-gray"> <span class="dtr-meta-author-avatar"><img src="assets/images/user-1-80x80.jpg" alt="image"></span> Aurora Walker<span class="dtr-meta-date">22. 06. 2021</span></div>
@@ -1207,134 +1118,4 @@
     </div>
     <!-- == main content area ends == -->
 
-    <!-- footer section starts
-================================================== -->
-    <footer id="dtr-footer">
-
-        <!--== main footer row starts ==-->
-        <div class="dtr-main-footer">
-            <div class="container">
-                <div class="row">
-
-                    <!--== column 1 starts ==-->
-                    <div class="col-12 col-md-6 col-lg-5"><a class="dtr-scroll-link" href="#home"><img src="assets/images/logo-light.png" alt="logo"></a>
-                        <p class="dtr-mt-20 dtr-mb-40">There are many variations of passages of<br>
-                            lorem ipsum available but the majority<br>
-                            have suffered alteration.</p>
-                        <p class="d-flex align-items-center"><i class="icon-phone-call-fill dtr-mr-10 color-blue"></i>1-800-234 567 89</p>
-                        <p class="d-flex align-items-center"><i class="icon-envelope-simple-fill dtr-mr-10 color-blue"></i>sales@example.com</p>
-                    </div>
-                    <!--== column 1 ends ==-->
-
-                    <!--== column 2 starts ==-->
-                    <div class="col-12 col-md-6 col-lg-2 small-device-space">
-                        <h6>Resources</h6>
-                        <ul class="dtr-list-line line-accent">
-                            <li>
-                                <p><a href="#">Documentation</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Articles</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Showcase</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Rebuilds</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Templates</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--== column 2 ends ==-->
-
-                    <!--== column 3 starts ==-->
-                    <div class="col-12 col-md-6 col-lg-2 small-device-space">
-                        <h6>Company</h6>
-                        <ul class="dtr-list-line line-accent">
-                            <li>
-                                <p><a href="#">About Us</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Our Team</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">The Process</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Blog</a></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Contact</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--== column 3 ends ==-->
-
-                    <!--== column 4 starts ==-->
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h6>Subscribe</h6>
-                        <p>Get all updates and notifications by subscribing to our newsletter.</p>
-
-                        <!-- form starts -->
-                        <div class="dtr-subscribe-form dtr-mt-20">
-                            <input type="email" name="your-email" placeholder="hello@example.com" />
-                            <button type="submit" class="dtr-subscribe-btn">Submit</button>
-                        </div>
-                        <!-- form ends -->
-
-                    </div>
-                    <!--== column 4 ends ==-->
-
-                </div>
-            </div>
-        </div>
-        <!--== main footer row ends ==-->
-
-        <!--== copyright row starts ==-->
-        <div class="dtr-copyright">
-            <div class="container">
-                <div class="row">
-
-                    <!--== column 1 starts ==-->
-                    <div class="col-12 col-md-6">
-
-                        <!-- social starts -->
-                        <ul class="dtr-social dtr-social-list">
-                            <li><a href="#" class="dtr-twitter" target="_blank" title="twitter"></a></li>
-                            <li><a href="#" class="dtr-facebook" target="_blank" title="facebook"></a></li>
-                            <li><a href="#" class="dtr-linkedin" target="_blank" title="linkedin"></a></li>
-                        </ul>
-                        <!-- social ends -->
-
-                    </div>
-                    <!--== column 1 ends ==-->
-
-                    <!--== column 2 starts ==-->
-                    <div class="col-12 col-md-6 text-end small-device-space">
-                        <p>© 2021 XaaSvik. All rights reserved</p>
-                    </div>
-                    <!--== column 2 ends ==-->
-
-                </div>
-            </div>
-        </div>
-        <!--== copyright row ends ==-->
-
-    </footer>
-    <!-- footer section ends
-================================================== -->
-<!-- take top arrow -->
-<a id="take-to-top" href="#" class="dtr-fade-scroll "></a>
-</div>
-<!-- #dtr-wrapper ends -->
-
-<!-- JS FILES -->
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
