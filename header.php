@@ -14,12 +14,12 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/apple-touch-icon-76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
 <link href="<?php echo get_template_directory_uri(); ?>/assets/images/icons/favicon.png" rel="shortcut icon">
 <!-- CSS FILES -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/iconfont.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/plugins.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/color.css">
+
+
+
+
+
+
 
 <?php wp_head(); ?>
 
