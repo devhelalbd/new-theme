@@ -1,6 +1,18 @@
 <?php
 
 
+function project_theme(){
+
+     load_theme_textdomain('project_theme');
+
+     register_nav_menus(array(
+          'main-menu' => __('Main Menu', 'project_theme'),
+          'footer-menu' => __('Footer Menu', 'project_theme'),
+     ));
+}
+
+add_action('after_setup_theme', 'project_theme');
+
 
 function theme_scrpts(){
 
