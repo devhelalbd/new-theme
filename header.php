@@ -73,7 +73,15 @@
 
                 <!-- menu starts-->
                 <div class="main-navigation">
-                    <ul class="sf-menu dtr-nav dark-nav-on-load dark-nav-on-scroll">
+                    <?php wp_nav_menu(array(
+                        'theme_location' => 'main-menu',
+                        'container'            => 'div',
+                        'container_class'      => 'main-menu-container',
+                        'container_id'         => 'menu-container-id',
+                        'menu_class'           => 'menu-class',
+		                'menu_id'              => 'menu-id',
+                    )); ?>
+                    <!-- <ul class="sf-menu dtr-nav dark-nav-on-load dark-nav-on-scroll">
                         <li> <a class="nav-link" href="#home">Home</a> </li>
                         <li> <a class="nav-link" href="#services">Features</a> </li>
                         <li> <a class="nav-link" href="#team">The Team</a> </li>
@@ -81,7 +89,7 @@
                         <li> <a class="nav-link" href="#pricing">Pricing</a> </li>
                         <li> <a class="nav-link" href="#blog">Blog</a> </li>
                         <li> <a class="nav-link" href="#contact">Contact</a> </li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <!-- menu ends -->
 
